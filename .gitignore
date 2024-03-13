@@ -1,0 +1,27 @@
+# TKM's THEIoTHomeAutomation - TKM's Home Assistant ESPHome Modules repository
+# for private repo git@github.com:thekarlmiller/THEIoTHomeAutomation.git
+
+# files to include (NOT ignore)
+!.gitignore
+!*.yaml
+!*.md
+!*.sh
+!*.js*
+!kicad
+!docs
+
+# files to Ignore
+.cloud
+.google.token
+.ssh
+.storage
+*.bin
+*.log*
+*.db*
+id_rsa*
+secrets.yaml
+esphome-dev
+ESPHomeFlasherTools
+ESPHome-Webtools
+HA-ESPHomeFolder
+SonoffTools
